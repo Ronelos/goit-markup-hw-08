@@ -1,0 +1,70 @@
+.dignity {
+   
+    // padding-top: 94px;
+    // padding-bottom: 47px; 
+}
+
+       
+    
+
+.dignity-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+   
+
+    
+}
+
+// .dignity-list__item {
+    
+//     // height: 251px;
+//     margin-right: 15px;
+//         &:not(:last-chield) {
+//             margin-right: 30px;
+//         } 
+      
+// }
+
+.dignity-list__box {
+    display: flex;
+    width: 450px;
+    height: 120px;
+    background-color: #F5F4FA;
+    justify-content: center;
+    align-items: center;
+       
+    }
+
+    .dignity-list__icon {
+       width: 70px;
+       height: 70px; 
+      
+       
+    }
+
+.dignity-list__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+.dignity-list__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    display: flex;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+
+}
