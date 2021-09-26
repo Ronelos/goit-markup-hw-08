@@ -142,9 +142,10 @@
 
 
 .mobile-menu__social-links {
-    display: inline;
+    display: flex;
     text-align: center;
-
+    align-items: center;
+   
     @media screen and (min-width:480px) {
         display: flex;
     }
@@ -153,6 +154,7 @@
 .mobile-menu__social-links-item {
     
     margin-bottom: 5px;
+    
 
     @media screen and (min-width:480px) {
 

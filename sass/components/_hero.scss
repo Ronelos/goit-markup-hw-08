@@ -1,4 +1,5 @@
 .hero {
+    
     padding-top: 118px;
     padding-bottom: 118px;
     
@@ -41,20 +42,24 @@
 
     }
      @media screen and (min-width: 1200px){
+        
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
         url(../images/hero-bgr-min/hero-bgr-desk-min-1x.jpg);
+       
     }
     @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {    
+    (min-resolution: 2dppx) {   
+      
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
         ),
         url(../images/hero-bgr-min/hero-bgr-desk-min-2x.jpg);
+       
 
     }
 
